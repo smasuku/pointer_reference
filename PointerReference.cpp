@@ -22,11 +22,11 @@ int main(){
 
 //    ********* changeByPointer **********************
     changeByPointer(&age); //&age will be a pointer to age (to see cout<<&age<<endl;)
-    cout<<"after (above) age value: "<<age<<endl<<endl; //has the value of age changed?
+    cout<<"after (above) age value: "<<age<<endl<<endl; //has the value of age changed to 100?
 
 //    ********* changeByReference **********************
     changeByReference(age); //this is the part/line I don't understand, the behind the scenes (logic)
-    cout<<"after (above) age value: "<<age<<endl<<endl; //has the value of age changed?
+    cout<<"after (above) age value: "<<age<<endl<<endl; //has the value of age changed to 123?
 
     return 0;
 }
