@@ -8,4 +8,4 @@ print (t);
 def ff():
     t=10;
     return t;
-ff();
+print(ff());
