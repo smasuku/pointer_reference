@@ -9,3 +9,5 @@ def ff():
     t=10;
     return t;
 print(ff());
+
+b = ff();
